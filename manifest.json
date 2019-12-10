@@ -1,0 +1,24 @@
+{
+    "name": "Project 3",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "description": "Final project for Platform Based Computing",
+
+    "browser_action": {
+        "default_title": "Click to change background color",
+        "default_popup": "popup.html",
+        "default_icon": "nova.48.png"
+    },
+
+    "icons": {
+        "128": "nova.128.png",
+        "16": "nova.16.png",
+        "48": "nova.48.png"    
+     },
+
+    "permissions": [
+        "http://*/*", "https://*/*"
+    ]
+
+}
